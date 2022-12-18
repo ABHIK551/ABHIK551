@@ -1,0 +1,90 @@
+/*add background picture to the body*/
+body{
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-2008-1024x1536.jpg)no-repeat center center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+/*Style brand*/
+.logo{
+    height: 40px;
+}
+/*Style navigation bar*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.navbar-nav li a{
+    font-size: 19px;
+    font-family: 'Crimson Pro', serif;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+#contents li a:hover{
+    color: white;
+    border-bottom: 1px solid #00FFD1;
+    padding-bottom: 9px;
+}
+/*Style jumbotron*/
+.jumbotron{
+    color: white;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    margin:0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+/*limit the width of the icon section*/
+.icons .container{
+    max-width: 1000px;
+}
+
+/*Style icons sections using bootstrap grid system*/
+.icons{
+}
+.bodyimage{
+    height: 1050px;
+}
+.col-md-4{
+    font-family: 'Crimson Pro', serif;
+    text-align: center;
+    color: white;
+}
+.icons p{
+    font-size: 15px;
+}
+/*Style content buttons*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+     margin-bottom: 100px;
+    font-family: 'Crimson Pro', serif;
+}
+.contact .container a{
+    color: white;
+    background-color: rgba(0, 255, 209, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 17px;
+    letter-spacing: 1.3px;
+}
+.contact .container a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*Style footer*/
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 17px;
+    padding: 10px 0;
+    
+}
+
+/* use media queries to change size in different sizes*/
+@media (max-width:768px){
+    .body-image{
+        height: 70px;
+    }
+}
